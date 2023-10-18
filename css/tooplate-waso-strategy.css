@@ -826,6 +826,10 @@ strong {
     width: 100%;
   }
 
+  .carousel-caption h1 {
+    margin-right: 30px;
+  }
+
   .about-thumb {
     padding: 30px;
   }
@@ -881,7 +885,7 @@ strong {
   }
 
   .site-header p {
-    font-size: 14px;
+    font-size: 20px;
   }
 
   .carousel-control-next, 

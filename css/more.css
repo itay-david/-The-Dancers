@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@600&display=swap');
+
+* {
+  text-align: right;
+  font-family: 'Assistant', sans-serif;
+}
+
+h2 {
+    margin-right: 60px;
+}
+
+#wh {
+    color: #fff;
+    font-family: 'Assistant', sans-serif;
+}
+
+#our-gallery {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid #ccc; /* Change the border color here */
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .gallery-item {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact #mm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#mm img {
+    width: 130px;
+    cursor: pointer;
+}

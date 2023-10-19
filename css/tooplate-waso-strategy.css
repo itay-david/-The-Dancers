@@ -375,7 +375,7 @@ strong {
 -----------------------------------------*/
 .hero {
   position: relative;
-  height: calc(100vh - 133px);
+  height: calc(65vh - 133px);
 }
 
 .section-hero {
@@ -756,6 +756,10 @@ strong {
   color: var(--primary-color);
 }
 
+.about-info h2 {
+  text-align: center;
+}
+
 
 /*---------------------------------------
   RESPONSIVE STYLES               
@@ -857,6 +861,7 @@ strong {
   .site-footer {
     text-align: center;
   }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -909,6 +914,15 @@ strong {
 
   .copyright-text {
     padding-bottom: 10px;
+  }
+
+  .carousel {
+    height: 300px;
+    margin-bottom: 0;
+  }
+
+  .about {
+    margin-top: 0;
   }
 }
 
